@@ -1,0 +1,258 @@
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* Nav bar + Hero + Page Navigation: */
+
+/* Group Nav Bar */
+nav{
+    display: flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 10000px;
+}
+
+
+.nav-link{
+    flex:1;
+    text-align: center;
+}
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px ;
+    position: relative;
+}
+.nav-link ul li a {
+color: #F0EAD2 ;
+text-decoration: none;
+font-size: 25px;
+}
+
+
+
+.nav-link ul li :hover{
+    background-color:black;
+}
+
+
+/* Hero img  */
+.hero{
+    background-color: rgb(198, 135, 114);
+    background-image: url(./Images/Wild-flower.webp);
+
+
+    background-size: cover;
+    color: white;
+    
+
+    /* background-blend-mode:   this blends the background img with the background color. "multiply" focuses the darker parts/colors. "lighten" focuses on the lighter parts/colors.  */
+    background-blend-mode: multiply;
+
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+
+}
+
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 7rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+
+/* in-page nav */
+.about-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 0;
+    list-style: none;
+    color: white;
+    /* text-decoration: none; */
+
+
+}
+
+.nav-item {
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+    /* background-color: rgb(164, 163, 163); */
+
+}
+
+
+a:link, a:visited {
+    color: white;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* Section: Our Mission */
+
+#section-ourMission {
+    padding: 1rem;
+    /* background-color: #A98467; */
+    /* background-color: #6C584C; */
+    background-image: linear-gradient(to bottom, rgba(108, 88, 76), rgba(173, 193, 120));
+
+}
+
+.mission {
+    color: #F0EAD2;
+    font-style: italic;
+    font-size: 2rem;
+    font-family: oswald;
+
+}
+
+
+.quote {
+    font-size: 1rem;
+    font-family: oswald;
+    color: black;
+
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* Section: Leadership */
+
+#section-leadership {
+    padding: 1rem;
+    background-color: #ADC178;
+    background-image: linear-gradient(to bottom, rgba(173, 193, 120), rgba(240, 234, 210));
+}
+
+
+#section-leadership  h2 {
+    font-size: 2rem;
+}
+
+
+.leadership-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#section-leadership .leadership-grid p {
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+/* .leader-img {
+    justify-content: center;
+    align-items: center;
+} */
+
+
+#section-leadership .leadership-grid img {
+    justify-content: center;
+    padding: 3rem;
+}
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* Section: Current Projects */
+
+#section-currentProjects {
+    background-color: rgba(240, 234, 210);
+    padding: 1rem;
+
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* Section: Job Opportunities */
+
+#section-jobOpportunities {
+    background-color: aqua;
+    /* background-image: url(./Images/Treetops.webp); */
+    padding: 1rem;
+
+
+}
+
+
+    /* background-image: url(./Images/Wild-flower.webp); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
